@@ -23,6 +23,17 @@ rules:
     pretty_name: 'CWE-1007: Insufficient Visual Distinction of Homoglyphs Presented
       to User'
     ref: https://cwe.mitre.org/data/definitions/1007.html
+  CWE-102:
+    categories:
+    - ALL
+    - boost-hardened
+    description: The product uses multiple validation forms with the same name, which
+      might cause the Struts Validator to validate a form that the programmer does
+      not expect.
+    group: top10-injection
+    name: CWE-102
+    pretty_name: 'CWE-102: Struts: Duplicate Validation Forms'
+    ref: https://cwe.mitre.org/data/definitions/102.html
 
 default:
   CWE-UNKNOWN:
