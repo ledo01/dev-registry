@@ -1,2 +1,14 @@
 import:
   - ledo01/dummy-rules
+
+
+default:
+  CWE-200:
+    categories:
+    - ALL
+    - boost-hardened
+    group: top10-insecure-design
+    name: CWE-200
+    pretty_name: CWE-UNKNOWN - Original rule did not map to a known CWE rule
+    description: The original rule could not be map to a CWE rule
+    ref: https://cwe.mitre.org/data/index.html
